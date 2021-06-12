@@ -65,7 +65,7 @@ def egg_dropped(egg):
     c.delete(egg)
     lose_a_life()
     if lives_remaining == 0:
-        messagebox.showinfo("Game Over!", "Final Score: "+ str(score))
+        messagebox.showinfo("Game Over!!", "Final Score: "+ str(score))
         root.destroy()
 
 def lose_a_life():
