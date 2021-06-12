@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from itertools import cycle
 from tkinter import Canvas, Tk, messagebox, font
 
